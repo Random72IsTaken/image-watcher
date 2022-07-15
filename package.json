@@ -1,0 +1,31 @@
+{
+  
+  "name": "@minsulaiman/image-watcher",
+  "version": "1.0.0",
+  "description": "Track image loading with Alpine.js like a hunter!",
+  "keywords": [
+    "alpinejs-plugin",
+    "watch",
+    "image",
+    "loading"
+  ],
+  "main": "dist/module.cjs.js",
+  "module": "dist/module.esm.js",
+  "devDependencies": {
+    "esbuild": "^0.8.39"
+  },
+  "scripts": {
+    "build": "node ./scripts/build.js",
+    "watch": "node ./scripts/build.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoodM4ven/image-watcher.git"
+  },
+  "author": "GoodM4ven <minsulaiman@protonmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/GoodM4ven/image-watcher#readme",
+  "bugs": {
+    "url": "https://github.com/GoodM4ven/watcher-image/issues"
+  }
+}

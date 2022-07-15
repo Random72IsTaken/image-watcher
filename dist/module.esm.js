@@ -1,0 +1,1 @@
+function a(i){i.directive("image-watcher",(e,{expression:r},{Alpine:o,evaluate:d})=>{let t=o.reactive(d(r));if(e.nodeName.toLowerCase()!=="img"&&(e=e.querySelector("img"),e==null))throw"No image element was found where the watcher is applied; even within!";e.addEventListener("load",()=>{t.isLoaded=!0}),t.isLoaded=e.complete&&e.naturalHeight!==0})}var n=a;export{n as default};
