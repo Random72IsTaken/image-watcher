@@ -73,7 +73,7 @@ Again, since this is an Alpine.js directive, we need that awesomeness installed 
    ```js
    ...
    import Alpine from 'alpinejs';
-   import imageWatcher from 'alpinejs-image-watcher';
+   import imageWatcher from '@minsulaiman/image-watcher';
 
    Alpine.plugin(imageWatcher);
 
