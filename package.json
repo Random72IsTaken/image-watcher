@@ -1,7 +1,7 @@
 {
-  
+
   "name": "@minsulaiman/image-watcher",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Track image loading with Alpine.js like a hunter!",
   "keywords": [
     "alpinejs-plugin",
